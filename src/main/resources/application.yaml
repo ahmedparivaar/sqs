@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sqs
+
+aws:
+  region: eu-north-1
+  accessKey: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  secretKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  sqs:
+    queueUrl: https://sqs.eu-north-1.amazonaws.com/676259471979/QueueDemo
